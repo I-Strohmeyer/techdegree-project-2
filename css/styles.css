@@ -1,3 +1,26 @@
 body {
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background: #505858;
+    color: #f2e1e0;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    background: #f2e1e0;
+    color: #6ebdbd;
+}
+
+/* Pictures */
+.main-pic {
+    width: 310px;
 }
