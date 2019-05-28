@@ -5,6 +5,11 @@ body {
     color: #f2e1e0;
 }
 
+/* URL, with a keyword fallback */
+* {
+    cursor: url("../img/cur1054.cur"), pointer;
+  }
+
 /* Header */
 
 .nav-item {
@@ -15,8 +20,8 @@ ul {
     list-style-type: none;
 }
 
-.nav-list ul li {
-    margin: 5px;
+li {
+    margin: 15px;
     text-align: center;
 }
 
@@ -24,10 +29,7 @@ ul {
     width: 90%;
 }
 
-/* URL, with a keyword fallback */
-* {
-  cursor: url("../img/cur1054.cur"), pointer;
-}
+
 
 /* Links */
 
