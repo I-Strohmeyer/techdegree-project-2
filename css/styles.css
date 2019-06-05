@@ -63,6 +63,8 @@ li {
   width: 90%;
   margin: auto;
   padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 /* Footer */
@@ -163,19 +165,20 @@ a:hover {
 }
 
 .main-pic {
-  width: 290px;
+  max-width: 290px;
 }
 
-/* @media (min-width: 768px) {
-  .marketing, .search-page {
-    display: inline-block;
-    width: 45%;
-  }
+@media (min-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr 1fr;
+   }
 }
 
 @media (min-width: 1024px) {
-
-} */
+  .main-content {
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+} 
 
 
 
