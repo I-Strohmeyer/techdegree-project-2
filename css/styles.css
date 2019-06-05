@@ -151,7 +151,7 @@ a {
 }
 
 a:hover {
-  color: #505858;
+  color: #000;
 }
 
 /* Pictures */
@@ -171,17 +171,31 @@ a:hover {
 @media (min-width: 768px) {
   .main-content {
     grid-template-columns: 1fr 1fr;
-   }
+  }
+  li {
+    background: none;
+    display: inline-block;
+    padding: 15px;
+    font-weight: 600;
+  }
+  li a {
+    color: #fff;
+  }
+  .intro {
+    overflow: auto;
+    display: inline-block;
+  }
+  .profile-pic {
+    float: right;
+  }
+  .text-intro {
+    width: 60%;
+    padding-top: 100px;
+  }
 }
 
 @media (min-width: 1024px) {
   .main-content {
     grid-template-columns: 1fr 1fr 1fr;
-   }
-} 
-
-
-
-
-
-
+  }
+}
