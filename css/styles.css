@@ -229,6 +229,10 @@ a:hover {
 }
 
 @media (min-width: 1024px) {
+  .container-main {
+    padding-top: 45px;
+    padding-bottom: 90px;
+  }
   .main-content {
     grid-template-columns: 1fr 1fr 1fr;
   }
